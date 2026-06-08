@@ -31,7 +31,7 @@ class Program
             Console.WriteLine("The Student is added successfully!");
 
             // Retrieve and display the student to verify
-            var savedStudent = context.Students.FirstOrDefault(s => s.FirstName == "Hanna");
+            var savedStudent = context.Students.FirstOrDefault(s => s.FirstName == "Chaaban");
             if (savedStudent != null)
             {
                 Console.WriteLine($" Student: {savedStudent.FirstName} {savedStudent.LastName}");
